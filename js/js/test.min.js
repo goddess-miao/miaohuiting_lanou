@@ -1,0 +1,1 @@
+function fn1(){console.log(this)}for(var a=10,nStop=!0,i=0;i<5;i++)console.log(i);fn1(),document.onclick=fn1;
